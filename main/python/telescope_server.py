@@ -6,7 +6,7 @@ from PyQt4 import QtCore
 from threading import Thread
 import asyncore, socket
 from time import time, localtime
-from bitstring import BitArray, BitStream, ConstBitStream # http://code.google.com/p/python-bitstring/
+from bstring.bitstring import BitArray, BitStream, ConstBitStream # http://code.google.com/p/python-bitstring/
 import coords
 
 
